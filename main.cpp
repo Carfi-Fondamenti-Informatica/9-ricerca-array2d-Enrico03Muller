@@ -4,12 +4,12 @@
 using namespace std;
 
 int main() {
-    char lista [4][20];
+    char lista [10][20];
     char nome [1][20];
     int pos = 0;
 
     //Ingresso lista nomi
-    for (int i = 0; i < 4; i++){
+    for (int i = 0; i < 10; i++){
         cin >> lista [i];
     }
 
